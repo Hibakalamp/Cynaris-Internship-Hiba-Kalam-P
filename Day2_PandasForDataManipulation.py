@@ -43,9 +43,10 @@ print(df_pivot)
 df.to_csv("Day2_Cleaned_Data.csv", index=False)
 df.to_parquet("Day2_Cleaned_Data.parquet")
 
-
+# Checking file sizes
 csv_size = os.path.getsize("Day2_Cleaned_Data.csv")
 print("CSV size:", csv_size, "bytes")
-
 parquet_size = os.path.getsize("Day2_Cleaned_Data.parquet")
 print("Parquet size:", parquet_size, "bytes")
+
+print("Task completed")
