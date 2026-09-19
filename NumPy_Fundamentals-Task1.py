@@ -23,22 +23,21 @@ m2 = np.array([[5, 6], [7, 8]])
 
 print("Result Matrix Multiplication:\n", np.matmul(m1, m2))
 
-# Load dataset
-data = np.loadtxt("data.csv", delimiter=",", skiprows=1)
+# Broadcasting
+x = np.array([1, 2, 3])
+y = x * 2
 
-# Columns
-day = data[:, 0]
-steps = data[:, 1]
-calories = data[:, 2]
+# Vectorised operations
+print("Squared:", x ** 2)
 
-# Mean
-print("Mean Steps:", np.mean(steps))
-print("Mean Calories:", np.mean(calories))
+# Matrix multiplication
+m1 = np.array([[1, 2], [3, 4]])
+m2 = np.array([[5, 6], [7, 8]])
 
-# Standard Deviation
-print("Std Steps:", np.std(steps))
-print("Std Calories:", np.std(calories))
+print("Matrix product:", np.dot(m1, m2))
 
-# Correlation
-print("Correlation (Steps vs Calories):")
-print(np.corrcoef(steps, calories))
+# Statistics
+data = np.array([10, 20, 30, 40])
+
+print("Mean:", np.mean(data))
+print("Std:", np.std(data))
