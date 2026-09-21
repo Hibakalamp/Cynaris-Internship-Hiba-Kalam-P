@@ -63,4 +63,5 @@ df11=df.astype({"Experience":'int'}) # Change the data type of the Experience co
 print("Change the data type of the Experience column to int:")
 print(df11)
 
-print(df.info()) 
+
+
