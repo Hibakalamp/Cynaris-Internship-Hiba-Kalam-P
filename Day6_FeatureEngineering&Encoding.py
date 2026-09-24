@@ -54,7 +54,7 @@ axes[2].set_title("MinMax Scaled Age")
 plt.tight_layout()
 plt.show()
 
-#Feature Selection (SelectKBest)
+# Feature Selection (SelectKBest)
 from sklearn.feature_selection import SelectKBest, f_classif
 
 X_features = df[['Age', 'Annual Income (k$)', 'Genre_encoded']]
@@ -69,3 +69,6 @@ scores = pd.DataFrame({
 })
 
 print(scores.sort_values(by='Score', ascending=False))
+
+#The dataset contains only three independent features, so SelectKBest was used to select all available features (k=3).
+# These features were evaluated based on their statistical relationship with the target variable.
