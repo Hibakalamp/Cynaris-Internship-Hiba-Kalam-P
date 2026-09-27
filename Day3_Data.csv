@@ -1,0 +1,13 @@
+Employee_ID,Name,Department,Salary,Experience,City
+101, Alice ,HR,50000,2,Bangalore
+102,Bob,IT,60000,3,Mumbai
+103,Charlie,Finance,,5,Delhi
+104,David,IT,1200000,10,Chennai
+105,Eve,HR,45000,1,Bangalore
+106,Frank,Finance,,4,Delhi
+107,Grace ,IT,-3000,3,Mumbai
+108,Heidi,HR,52000,,Chennai
+109,Ivan,NaN,58000,three,Delhi
+110,Jack,,75000,6,Bangalore
+111,Kiran,IT,NaN,NaN,Mumbai
+112,Lisa,Finance,68000,4,
