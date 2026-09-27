@@ -72,3 +72,5 @@ print(scores.sort_values(by='Score', ascending=False))
 
 #The dataset contains only three independent features, so SelectKBest was used to select all available features (k=3).
 # These features were evaluated based on their statistical relationship with the target variable.
+# The method helps in identifying which features have the strongest influence on the output variable (Spending Score).
+# Based on statistical scoring, features are ranked according to their importance in predicting customer behavior.
