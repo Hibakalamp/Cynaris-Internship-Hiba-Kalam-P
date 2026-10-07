@@ -1,0 +1,21 @@
+Review_Text,Sentiment
+"Great product, loved it",Positive
+"Very bad quality",Negative
+"Average experience",Neutral
+"Excellent item, will buy again",Positive
+"Waste of money",Negative
+"Not bad, okay product",Neutral
+"Super quality and fast delivery",Positive
+"Terrible service",Negative
+"It’s fine, nothing special",Neutral
+"Really happy with this",Positive
+"Very disappointing",Negative
+"Good but could be better",Neutral
+"Amazing product!",Positive
+"Poor packaging",Negative
+"Just okay",Neutral
+"Highly recommend this",Positive
+"Not worth the price",Negative
+"Decent product",Neutral
+"Loved the quality",Positive
+"Bad experience overall",Negative
